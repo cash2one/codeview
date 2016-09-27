@@ -1,0 +1,9 @@
+ 
+version: Jxcq_v1.0.1.280_2_dangle   2012/9/25当乐上线版本
+version: Jxcq_v1.0.1.285_2_dangle   2012/9/29 当乐上线版本
+version: Jxcq_v1.0.1.289_1_dangle   2012/10/15 当乐上线版本
+version: Jxcq_v1.0.1.289_2_dangle   2012/10/16 当乐上线版本 修复挑战次数换天没有更新，修复统计在线人数错误
+version: Jxcq_v1.0.4.295_1_dangle   2012/10/19 当乐上线版本
+version: Jxcq_v1.1.0.381_1_dangle   2012/11/16 当乐上线版本
+version: Jxcq_v1.1.0.381_2_dangle   2012/11/20 当乐上线版本
+version: Jxcq_v1.1.0.381_3_dangle   2012/11/27 当乐上线版本 修复拜访好友，重复帐号登陆后没有从好友主场景离开

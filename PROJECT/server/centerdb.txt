@@ -1,0 +1,34 @@
+alter table `t_recharge` change `chanel` `chanel` varchar(50) character set gbk collate gbk_bin NULL ;
+
+
+alter table `t_rechargelog` change `chanel` `chanel` varchar(50) character set gbk collate gbk_bin NULL  comment '充值渠道';
+
+
+alter table `t_rechargefaillog` change `chanel` `chanel` varchar(50) character set gbk collate gbk_bin NULL ;
+
+
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `P_CDB_RemoveToPayLog`$$
+
+CREATE DEFINER=`root`@`%` PROCEDURE `P_CDB_RemoveToPayLog`(pID int unsigned)
+BEGIN
+	declare t_id int unsigned default 0;
+	declare t_orderid char(50) default "";
+	declare t_amount int default 0;
+	declare t_getgodstone int default 0;
+	declare t_userID int unsigned default "";
+	declare t_serverID smallint default 0;
+	declare t_time datetime default "";
+	declare t_payip varchar(20) default "";
+	declare t_chanel char(50) default 0;
+	declare t_desc varchar(2500) default "";
+	declare t_platform smallint default 0;
+	select id,orderid,amount,godstone,userid,serverid,rechargetime,rechargeip,chanel,descript,platform into t_id,t_orderid,t_amount,t_getgodstone,t_userID,t_serverID,t_time,t_payip,t_chanel,t_desc,t_platform from t_recharge where id = pID;
+	if t_id <> 0 then
+		delete from t_recharge where id = pID;
+		insert into t_rechargelog(userid,rechargetime,amount,godstone,chanel,serverid,rechargeip,orderid,descript,platform) values(t_userID,t_time,t_amount,t_getgodstone,t_chanel,t_serverID,t_payip,t_orderid,t_desc,t_platform);
+	end if;
+    END$$
+
+DELIMITER ;

@@ -1,0 +1,1368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bcl">
+      <UniqueIdentifier>{b8d425f0-093c-4b5d-b48b-c6efe9c9b849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChatServer">
+      <UniqueIdentifier>{776d56ad-eaf5-4b01-8ab2-37d5b9ab50de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7bedef71-f54c-449f-ab7a-a2b949fd5cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBProxyServer">
+      <UniqueIdentifier>{f7acc301-bc6f-48cb-b978-b4a7dcef1d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoginServer">
+      <UniqueIdentifier>{295a441c-32e2-4389-9e87-5b817449cc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdPartPlatform">
+      <UniqueIdentifier>{cda55cd0-d986-4b93-aac9-b0df19ebc584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bcl\BclCommon">
+      <UniqueIdentifier>{74958dc8-071c-448b-a665-2064ef9aec7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bcl\TestBcl">
+      <UniqueIdentifier>{1eb58d8d-de7f-4f47-ae3a-2dedc2aa24ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\新建文档">
+      <UniqueIdentifier>{aeea9ef9-e6fc-4061-be2c-713c8159bbb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer">
+      <UniqueIdentifier>{c2cfa8e6-3f92-4c06-9792-825b5deb39a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\CombatServer">
+      <UniqueIdentifier>{a46cf56a-d46a-475d-b298-e6dec551b2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\ConfigServer">
+      <UniqueIdentifier>{c99b400e-b6f7-447f-9c84-4fee600ea9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\GameServer">
+      <UniqueIdentifier>{52804d13-4cfc-4c81-82ff-694e34d5644a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\GoodsServer">
+      <UniqueIdentifier>{fe580aef-a54a-499c-9e4c-3733eac265bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\Include">
+      <UniqueIdentifier>{fefebefb-008d-4b39-a194-d6a2f62c343a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\ListenServer">
+      <UniqueIdentifier>{b05e0481-2e6c-40cb-80f5-70ecae2f5b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\pytest">
+      <UniqueIdentifier>{16e2817b-501f-4249-abb0-7829a287e5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\RelationServer">
+      <UniqueIdentifier>{70383808-88bb-40f3-9293-1d66a4acca92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\reloadpy">
+      <UniqueIdentifier>{2f93a5f7-2aa3-4aa0-a192-eb77872a3090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\test">
+      <UniqueIdentifier>{208faeb3-31b7-43af-8698-e1425c80dbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\test_dll">
+      <UniqueIdentifier>{fd9baeb1-bb6d-4d4a-b842-93919bd64a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\testc">
+      <UniqueIdentifier>{f312e26d-2f5f-4167-a645-4d8af48f8715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\TestClient">
+      <UniqueIdentifier>{92452b1e-4c78-4f0b-b4f0-089848e735d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\testpy">
+      <UniqueIdentifier>{41fcb77f-480c-4742-b24a-a45fbca5e3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\ThingServer">
+      <UniqueIdentifier>{f07ffa93-1ac6-48ba-956a-bef123938a03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\..\PROJECT\server\lib\RelationServer.dll.intermediate.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\BclHeader.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\FieldDef.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\FileConfig.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\FileCsv.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\FileSystem.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\IBasicService.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\ICrashDump.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\ICryptService.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\IDataBase.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\IEventServer.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\IKeywordFilter.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\ILogTrace.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\IOauth2Proxy.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\ISocketSystem.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\ITimeAxis.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\OStreamBuffer.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\RandomService.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\SimpleCrypt.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\StringUtil.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\TBuffer.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\TDataBase.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\TDeque.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\TSwitchSequence.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\UniqueIDGenerator.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\XDateTime.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\BclCommon\XZip.h">
+      <Filter>Bcl\BclCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Bcl\TestBcl\CrashReport.h">
+      <Filter>Bcl\TestBcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\ChatServer\ChatServer\Actor.h">
+      <Filter>ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\ChatServer\ChatServer\ChatServer.h">
+      <Filter>ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\ChatServer\ChatServer\GameServerProxy.h">
+      <Filter>ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\ChatServer\ChatServer\SyndicateMgr.h">
+      <Filter>ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\ActivityCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\BuildingCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\ChatSrvCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\ChengJiuCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\CombatCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\DBProtocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\DouFaCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\DSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\EquipCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\FriendCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\GameFrameCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\GameSrvProtocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\GameWorldCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\IDBProxyClient.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\IThirdPart.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\LoginSrvProtocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\MailCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\MainUICmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\MiJingCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\PacketCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\ProtocolHeader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\RankCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\ServerProtocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\ShopMallCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\SyndicateCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\TalismanGameProtocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\TalkCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\TaskCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\TeamCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\TradeCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\WebCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\XiuLianCmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\Common\新建文件夹\DBProtocol.h">
+      <Filter>Common\新建文档</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\LoginServer\LoginServer\GameServerProxy.h">
+      <Filter>LoginServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\LoginServer\LoginServer\LoginServer.h">
+      <Filter>LoginServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\ThirdPartPlatform\DangLePlatform.h">
+      <Filter>ThirdPartPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\CombatServer.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\Effect.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectAddBuildingRes.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectAddStatus.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectAvoidDie.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectChangeAttack.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectChangeProp.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectChangeTriggerProb.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectCure.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectDirectDamage.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectForbidMagic.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectForbidPhysics.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectPersistDamage.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectReturnBlood.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\EffectSuckBlood.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\Magic.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\CombatServer\Status.h">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ConfigServer\ConfigServer.h">
+      <Filter>GameServer\ConfigServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\ChatSrvProxy.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\CrashReport.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\GameServer.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\ILoginSrvProxy.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\LoginSrvProxy.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\MessageDispatch.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\Session.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GameServer\SessionState.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GoodsServer\CDTime.h">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GoodsServer\GoodsServer.h">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GoodsServer\GoodsUseHandler.h">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\GoodsServer\ShopMall.h">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\DMsgSubAction.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IActivityPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IActor.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IActorBasicPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IBuilding.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ICDTime.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ICDTimerPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IChengJiuPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ICloner.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ICombatPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ICombatServer.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ICommonGoods.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IConfigServer.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ICreature.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IDouFaPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IEffect.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IEquipment.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IEquipPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IFriendPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IFuBenPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IFuMoDongPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGameScene.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGameServer.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGameWorld.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGatherGodHousePart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGodSword.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGodSwordShopPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGoods.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IGoodsServer.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IMagic.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IMagicPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IMailPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IMessageDispatch.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IMonster.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IPacketPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IPortal.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IRelationServer.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IResOutputPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISession.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IStatus.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IStatusPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISyndicate.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISyndicateMember.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISyndicateMgr.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISynMagic.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISynMagicPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISynPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ISystemMsg.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ITalisman.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ITalismanPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ITalk.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ITask.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ITaskPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ITeamPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IThing.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IThingPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IThingServer.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ITrainingHallPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IVisitSynMember.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IVisitWorldThing.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\IXiuLianPart.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\Include\ThingContainer.h">
+      <Filter>GameServer\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ListenServer\ListenerGame.h">
+      <Filter>GameServer\ListenServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ListenServer\ListenerLogin.h">
+      <Filter>GameServer\ListenServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ActivityMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ActivityPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Actor.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ActorBasicPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ActorBuilder.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\AddAllUserMailNum.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\AddSynTask.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Building.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\BuildingMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\CDTimerPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Challenge.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ChengJiuMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ChengJiuPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Combat.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\CombatPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\CommonGoods.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ContributionTask.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\CreateEmployee.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\CreatureBase.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\DaTiGame.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\DouFaMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\DouFaPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\DuoBaoGroup.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\DuoBaoWar.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\EmployeeNumTask.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Equipment.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\EquipMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\EquipPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\EventActivity.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\EventChengJiu.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\EventTask.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\FlushOnlineUserTask.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\FriendMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\FriendPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\FuBenMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\FuBenPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\FuMoDongPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GameScene.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GameWorld.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GatherGame.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GatherGodHousePart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GetSynWarScoreTask.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GodSword.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GodSwordShopPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Goods.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\GoodsNumTask.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ITalismanGame.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\MagicLvSecChengJiu.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\MagicPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\MailMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\MailPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\MainUIMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\MiJingMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Monster.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\MonsterBuilder.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\PacketMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\PacketPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Pair.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Portal.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\QingLiGame.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ResetGodSwordFuBen.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ResOutputPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\StatusPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\SynMagicPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\SynPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\Talisman.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanGame.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanWorldFuBen.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TargetTimeToLevel.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TaskMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TaskPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TeamMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TeamPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ThingBase.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ThingServer.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\TrainingHallPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\ViewOneCityUser.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\VisitScene.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\WebInterface.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\XiuLianGame.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\XiuLianMgr.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\XiuLianPart.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\XuanTianFuBen.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\ThingServer\XunBaoGame.h">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\testpy\testpy\testpy.h">
+      <Filter>GameServer\testpy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\Client.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\CmdEquip.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\CmdPacket.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\CmdShopMall.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\CmdTalk.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\FuMoDong.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\ICmdBase.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\TestClient\TestClient.h">
+      <Filter>GameServer\TestClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\test_dll\test\Itest_dll.h">
+      <Filter>GameServer\test_dll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\Rank.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\RelationServer.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SendSynTalk.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SendWorldNotice.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SendWorldTalk.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SendWorldViewGoods.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SendZhaoMuSynMember.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\Syndicate.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateCombat.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateMember.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateMgr.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateShop.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SynMagic.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\SystemMsg.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\Talk.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PROJECT\server\GameServer\RelationServer\Trade.h">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\PROJECT\server\Bcl\TestBcl\CrashReport.cpp">
+      <Filter>Bcl\TestBcl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\Bcl\TestBcl\Main.cpp">
+      <Filter>Bcl\TestBcl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\ChatServer\ChatServer\Actor.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\ChatServer\ChatServer\ChatServer.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\ChatServer\ChatServer\GameServerProxy.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\ChatServer\ChatServer\Main.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\ChatServer\ChatServer\SyndicateMgr.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\DBProxyServer\DBProxyServer\DBProxyServer.cpp">
+      <Filter>DBProxyServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\DBProxyServer\DBProxyServer\Main.cpp">
+      <Filter>DBProxyServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\LoginServer\LoginServer\GameServerProxy.cpp">
+      <Filter>LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\LoginServer\LoginServer\LoginServer.cpp">
+      <Filter>LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\LoginServer\LoginServer\Main.cpp">
+      <Filter>LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\ThirdPartPlatform\DangLePlatform.cpp">
+      <Filter>ThirdPartPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\ThirdPartPlatform\ThirdPartImp.cpp">
+      <Filter>ThirdPartPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\CombatServer.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\Effect.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectAddBuildingRes.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectAddStatus.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectAvoidDie.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectChangeAttack.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectChangeProp.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectChangeTriggerProb.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectCure.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectDirectDamage.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectForbidMagic.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectForbidPhysics.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectPersistDamage.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectReturnBlood.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\EffectSuckBlood.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\Magic.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\CombatServer\Status.cpp">
+      <Filter>GameServer\CombatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ConfigServer\ConfigServer.cpp">
+      <Filter>GameServer\ConfigServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\ChatSrvProxy.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\CrashReport.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\GameServer.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\LoginSrvProxy.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\Main.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\MessageDispatch.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\Session.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GameServer\SessionState.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GoodsServer\CDTime.cpp">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GoodsServer\GoodsServer.cpp">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GoodsServer\GoodsUseHandler.cpp">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\GoodsServer\ShopMall.cpp">
+      <Filter>GameServer\GoodsServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ListenServer\ListenerGame.cpp">
+      <Filter>GameServer\ListenServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ListenServer\ListenerLogin.cpp">
+      <Filter>GameServer\ListenServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ListenServer\Main.cpp">
+      <Filter>GameServer\ListenServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ActivityMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ActivityPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Actor.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ActorBasicPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ActorBuilder.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\AddSynTask.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Building.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\BuildingMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\CDTimerPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Challenge.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ChengJiuMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ChengJiuPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Combat.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\CombatPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\CommonGoods.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ContributionTask.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\CreateEmployee.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\DaTiGame.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\DouFaMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\DouFaPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\DuoBaoGroup.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\DuoBaoWar.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\EmployeeNumTask.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Equipment.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\EquipMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\EquipPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\EventActivity.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\EventChengJiu.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\EventTask.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\FriendMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\FriendPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\FuBenMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\FuBenPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\FuMoDongPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GameScene.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GameWorld.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GatherGame.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GatherGodHousePart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GetSynWarScoreTask.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GodSword.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GodSwordShopPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\GoodsNumTask.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\MagicLvSecChengJiu.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\MagicPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\MailMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\MailPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\MainUIMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\MiJingMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Monster.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\MonsterBuilder.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\PacketMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\PacketPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Pair.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Portal.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\QingLiGame.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ResOutputPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\StatusPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\SynMagicPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\SynPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\Talisman.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanGame.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TalismanWorldFuBen.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TargetTimeToLevel.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TaskMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TaskPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TeamMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TeamPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\ThingServer.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\TrainingHallPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\WebInterface.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\XiuLianGame.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\XiuLianMgr.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\XiuLianPart.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\XuanTianFuBen.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\ThingServer\XunBaoGame.cpp">
+      <Filter>GameServer\ThingServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\testpy\testpy\testpy.cpp">
+      <Filter>GameServer\testpy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\Client.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\CmdEquip.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\CmdPacket.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\CmdShopMall.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\CmdTalk.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\FuMoDong.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\Main.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\TestClient\TestClient.cpp">
+      <Filter>GameServer\TestClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\testc\testc\Main.cpp">
+      <Filter>GameServer\testc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\test_dll\test\Main.cpp">
+      <Filter>GameServer\test_dll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\test\test\Main.cpp">
+      <Filter>GameServer\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\reloadpy\reloadpy\Main.cpp">
+      <Filter>GameServer\reloadpy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\pytest\pytest\Main.cpp">
+      <Filter>GameServer\pytest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\Rank.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\RelationServer.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\Syndicate.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateCombat.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateMember.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateMgr.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\SyndicateShop.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\SynMagic.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\SystemMsg.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\Talk.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PROJECT\server\GameServer\RelationServer\Trade.cpp">
+      <Filter>GameServer\RelationServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\PROJECT\server\GameServer\ThingServer\ThingServer.vcproj">
+      <Filter>GameServer\ThingServer</Filter>
+    </None>
+    <None Include="..\..\PROJECT\server\GameServer\ThingServer\ThingServer.vcproj.PC-201202151342.Administrator.user">
+      <Filter>GameServer\ThingServer</Filter>
+    </None>
+    <None Include="..\..\PROJECT\server\GameServer\ThingServer\ThingServer.vcproj.张建森.Administrator.user">
+      <Filter>GameServer\ThingServer</Filter>
+    </None>
+  </ItemGroup>
+</Project>
